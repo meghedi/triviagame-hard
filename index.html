@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Trivia Game</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="insideContainer">
+            <h1>Totaly Trivial Trivia</h1>
+            <button id="startBtn">Start</button>
+            <div id="timeDisplay" style="display: none;"></div>
+            <div id="questions"></div>
+            <div id="correctAnswers" style="display: none;"></div>
+            <div id="allDone" style="display: none;">
+                <p>All Done!</p>
+                <p>Correct Answers : <span id="correctAnswersNum"></span></p>
+                <p>Incorrect Answers : <span id="incorrectAnswersNum"></span></p>
+                <p>Unanswered : <span id="unansweredNum"></span></p>
+                <p><button id="startOverBtn">Start Over</button></p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>

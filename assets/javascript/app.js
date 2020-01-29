@@ -7,7 +7,7 @@ const myQuestions = [
             c: "Casino Royals",
             d: "From Russia with love"
         },
-        imageUrl: "../assets/images/skyfall.jpg",
+        imageUrl: "assets/images/skyfall.jpg",
         correctAnswer: "a"
     },
     {
@@ -18,7 +18,7 @@ const myQuestions = [
             c: "Chorela",
             d: "Smallpox"
         },
-        imageUrl: "../assets/images/smallpox.jpg",
+        imageUrl: "assets/images/smallpox.jpg",
         correctAnswer: "d"
     },
     {
@@ -29,7 +29,7 @@ const myQuestions = [
             c: "China",
             d: "Russia"
         },
-        imageUrl: "../assets/images/china.jpg",
+        imageUrl: "assets/images/china.jpg",
         correctAnswer: "c"
     }
 ];

@@ -130,6 +130,9 @@ $(document).on('click','#startOverBtn', function(){
         $("#questions, #timeDisplay").fadeIn();
     });
     resetInterval();
+    correctAnswersNumber = 0;
+    incorrectAnswwersNumber = 0;
+    unAnsweredNumber = 0;
     i=0;
     questionAndAnswer(i);
 });
